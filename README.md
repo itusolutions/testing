@@ -32,10 +32,3 @@ The `assets/images/` folder contains original SVG artwork used in the page hero 
 
 ## Build before publishing
 Run `npm install` and then `npm run build` to generate the Tailwind CSS file referenced by the pages. Connect the contact, newsletter and unsubscribe forms to a form-handling/email provider before accepting live submissions.
-
-
-## Custom domain and media assets
-
-This build uses `https://www.it-u.co.za/` as its public site origin. The repository includes the requested image directory structure and carousel, parallax and scroll-reveal scripts. Upload your actual JPG files into the matching `assets/images/` folders; image binaries were not supplied with the request. See `assets/images/IMAGE-DIRECTORY-GUIDE.md` and `assets/images/IMAGE-HTML-EXAMPLES.md`.
-
-For GitHub Pages, keep `CNAME` containing exactly `www.it-u.co.za`, configure the custom domain in repository Settings → Pages, and ensure DNS records point to GitHub Pages.
