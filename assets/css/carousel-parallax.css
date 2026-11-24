@@ -1,0 +1,7 @@
+[data-itu-carousel] { position: relative; width: 100%; }
+[data-carousel-track] { position: relative; }
+[data-carousel-slide][hidden] { display: none !important; }
+.itu-carousel-dot { width: .65rem; height: .65rem; border-radius: 9999px; border: 1px solid currentColor; opacity: .55; margin: .25rem; }
+.itu-carousel-dot.is-active { opacity: 1; transform: scale(1.2); }
+[data-itu-parallax] { will-change: transform; }
+@media (prefers-reduced-motion: reduce) { [data-itu-parallax] { transform: none !important; } }
